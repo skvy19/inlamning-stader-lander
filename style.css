@@ -1,0 +1,24 @@
+@media screen and (max-width: 750px) {
+    #card, #dropdown {
+        min-width: 95%;
+        margin: 10px;
+    }
+    .btn {
+        width: 100%;
+        font-weight: bold;
+    }
+    #dropdown .btn{
+        font-weight: normal;
+        font-size: 170%;
+    }
+    #dropdown .dropdown-toggle::after{
+        font-size: 140%;
+        margin-left: 25px;
+    }
+    #visited .btn {
+        min-width: 100%;
+    }
+    .dropdown-menu{
+        justify-content: right;
+    }
+}
